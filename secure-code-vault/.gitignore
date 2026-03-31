@@ -1,0 +1,28 @@
+# 🔐 Env files
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+
+# 📦 Node modules
+node_modules/
+
+# 📁 Uploads
+backend/uploads/
+
+# 🧾 Logs
+*.log
+
+# ⚙️ Build
+build/
+dist/
+frontend/build/
+
+# 🧠 OS
+.DS_Store
+Thumbs.db
+
+# 🔒 IDE
+.vscode/
+.idea/
